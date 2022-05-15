@@ -1,8 +1,11 @@
+local width = 512
+local ratio = 1.09
+
 function love.conf(t)
     t.window.title = "Who Next"
     t.window.icon = "asset/icon.png"
-    t.window.height = 200
-    t.window.width = 800
+    t.window.width = width
+    t.window.height = width * 1 / ratio
 
     t.modules.audio = false
     t.modules.joystick = false
