@@ -1,0 +1,20 @@
+return {
+    "acolyte",
+    "charlatan",
+    "criminal",
+    "spy",
+    "entertainer",
+    "gladiator",
+    "folk hero",
+    "artisan",
+    "merchant",
+    "hermit",
+    "noble",
+    "knight",
+    "outlander",
+    "sage",
+    "sailor",
+    "pirate",
+    "solider",
+    "urchin"
+}
