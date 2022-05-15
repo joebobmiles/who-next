@@ -45,7 +45,9 @@ function love.load()
 end
 
 function love.draw()
-    love.graphics.clear()
+    love.graphics.clear(15/255, 56/255, 15/255)
+
+    love.graphics.setColor(202/255, 220/255, 159/255)
     love.graphics.draw(
         text,
         (love.graphics.getWidth() / 2) - (textWidth / 2),
